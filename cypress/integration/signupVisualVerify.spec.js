@@ -1,6 +1,6 @@
 /// <reference types="Cypress" />
 
-describe('signup Page:visual verification of all fields', () => {
+describe('signup Page: visual verification of all fields', () => {
   beforeEach(() => {
     cy.visit('/signup/')
   })
