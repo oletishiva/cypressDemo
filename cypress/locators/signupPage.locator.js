@@ -1,19 +1,20 @@
+//locators on the signup page
 var signuppageLocator = {
 
-    name: function () {
+    txt_name: function () {
         return '[data-vv-name=name]'
     },
 
-    org_name: function () {
+    txt_orgname: function () {
         return '[data-vv-name=organization_name]'
     },
-    email: function () {
+    txt_email: function () {
         return '[data-vv-name=company_email_address]'
     },
-    confirm_email: function () {
+    txt_confirmEmail: function () {
         return '[data-vv-name=confirm_company_email_address]'
     },
-    email_password:function(){
+    txt_password:function(){
         return '[data-vv-name=password]'
     },
     btn_signup:function(){
@@ -26,11 +27,16 @@ var signuppageLocator = {
     rb_company:function() {
         return 'input#company'
     },
+    cbx_agree:function() {
+        return '[data-vv-name=agree]'
+    },
     focus_locator: function() {
         return '.focused'
  }
 
 };
+
+// error messages text  to verify error validations
 
 var signupErrorMessages={
         'name_errormessage':'The name field is required',
