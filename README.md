@@ -13,9 +13,9 @@ Log error: Cypress verification timed out. ,Command timed out after 30000 millis
 
 
 # Demo features
-Page object pattern
-visual image validation of fileds in the page
-click actions
-type actions
-focus
+Page object pattern  
+visual image validation of fileds in the page  
+click actions  
+type actions  
+focus  
 
