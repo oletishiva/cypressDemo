@@ -1,8 +1,8 @@
 # cypressDemo
 # Configuration
 npm init  
-npm install cypress --save-dev
-npm i cypress-plugin-snapshots -S  // reference: https://github.com/meinaart/cypress-plugin-snapshots
+npm install cypress --save-dev  
+npm i cypress-plugin-snapshots -S  // reference: https://github.com/meinaart/cypress-plugin-snapshots  
 npx cypress open  
 
 
