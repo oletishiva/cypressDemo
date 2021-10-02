@@ -1,4 +1,4 @@
-import signupPageLocator, { signuppageLocator, signupErrorMessages } from '../locators/signupPage.locator';
+import { signuppageLocator, signupErrorMessages } from '../locators/signupPage.locator';
 
 // actions on the signup page
 
