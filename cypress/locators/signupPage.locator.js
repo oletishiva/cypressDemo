@@ -17,6 +17,10 @@ var signuppageLocator = {
     txt_password:function(){
         return '[data-vv-name=password]'
     },
+    txt_phonenumber: function()
+    {
+        return '.vti__input'
+    },
     btn_signup:function(){
         return '.signup-material-button-contained'
         
@@ -29,6 +33,9 @@ var signuppageLocator = {
     },
     cbx_agree:function() {
         return '[data-vv-name=agree]'
+    },
+    lnk_logintxt:function(){
+        return 'Log in' // This is text, can be used with cy.contains() function in page objects page
     },
     focus_locator: function() {
         return '.focused'
@@ -44,7 +51,8 @@ var signupErrorMessages={
         'email_errormessage':'The company email address field is required',
         'confirmemail_errormessage':'The confirm company email address field is required',
         'password_errormessage':'The password field is required',
-        'termsandconditions_errormessage':'The agree field is required'
+        'termsandconditions_errormessage':'The agree field is required',
+        'phonenumber_errormessage':'Enter a valid phone number'
 };
 
 export default {signuppageLocator,signupErrorMessages};
