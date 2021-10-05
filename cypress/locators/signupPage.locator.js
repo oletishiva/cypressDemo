@@ -52,7 +52,9 @@ var signupErrorMessages={
         'confirmemail_errormessage':'The confirm company email address field is required',
         'password_errormessage':'The password field is required',
         'termsandconditions_errormessage':'The agree field is required',
-        'phonenumber_errormessage':'Enter a valid phone number'
+        'phonenumber_errormessage':'Enter a valid phone number',
+        'invalidEmail_errormessage':'The company email address field must be a valid email',
+        'email_alreadyExists_errormessage':'User with this email address already exists.'
 };
 
 export default {signuppageLocator,signupErrorMessages};

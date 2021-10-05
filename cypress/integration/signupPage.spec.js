@@ -35,6 +35,26 @@ context('Postive Scenarios: Validation of sign up form', () => {
 
   })
 
+  describe('signup Page:Cannot signup again with already reistered email', () => {
+      it.only('Verify User can\'t able to signup with already registered email', () => {
+
+      signupPage.enter_name(manatalConstants.name);
+      signupPage.enter_orgname(manatalConstants.orgname)
+      signupPage.enter_email(manatalConstants.existingemail)
+      signupPage.enter_confirmEmail(manatalConstants.existingemail)
+      signupPage.enter_password(manatalConstants.password)
+      signupPage.click_rb_agency().should('be.checked');
+      signupPage.clickIAgree();
+      signupPage.click_signup();
+      cy.wait(2000);
+      cy.contains(signupErrorMessages["email_alreadyExists_errormessage"]);
+      
+     })
+
+    })
+
+  })
+
   describe('signup Page:Input fields verification', () => {
    
     it('Verify user can able to enter all the input fields--> all input fileds should be editable ', () => {

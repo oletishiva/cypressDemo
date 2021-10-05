@@ -1,7 +1,8 @@
 const manatalConstants = {
     password: "manatal@123",
     name:"shiva oleti",
-    orgname:"manatal"
+    orgname:"manatal",
+    existingemail:"shiva.oleti@agoda.com"
 
 }
 
