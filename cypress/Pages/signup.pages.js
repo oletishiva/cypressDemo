@@ -28,7 +28,7 @@ var signupPage = {
 // actions on the objects
 
     enter_name: function (name) {
-        cy.get(signuppageLocator.txt_name())
+      return  cy.get(signuppageLocator.txt_name())
             .type(name).should('have.value', name)
     },
     enter_orgname: function (orgname) {
@@ -52,7 +52,7 @@ var signupPage = {
     enter_phonenumber: function (phonenumber){
 
         cy.get(signuppageLocator.txt_phonenumber())
-        .type(phonenumber)
+        .type(phonenumber);
     },
 
     click_signup: function () {

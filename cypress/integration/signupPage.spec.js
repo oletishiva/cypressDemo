@@ -36,7 +36,7 @@ context('Postive Scenarios: Validation of sign up form', () => {
   })
 
   describe('signup Page:Cannot signup again with already reistered email', () => {
-      it.only('Verify User can\'t able to signup with already registered email', () => {
+      it('Verify User can\'t able to signup with already registered email', () => {
 
       signupPage.enter_name(manatalConstants.name);
       signupPage.enter_orgname(manatalConstants.orgname)
@@ -53,7 +53,7 @@ context('Postive Scenarios: Validation of sign up form', () => {
 
     })
 
-  })
+  
 
   describe('signup Page:Input fields verification', () => {
    
@@ -126,7 +126,7 @@ context('Postive Scenarios: Validation of sign up form', () => {
 
         it('verify the focus of name filed after enteing the text', () => {
         
-          signupPage.enter_name(manatalConstants.name).should('have.focus')
+          signupPage.enter_name(manatalConstants.name).should('have.focus');
         
       }),
 
@@ -150,9 +150,11 @@ context('Postive Scenarios: Validation of sign up form', () => {
      
   })
 
+})
+
   // if we want run only one test use it.only
 
-  })
+ 
 
 
 
