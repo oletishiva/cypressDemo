@@ -56,3 +56,5 @@ Add below to the cypress.json file
 }  
 
 ![alt text](https://github.com/oletishiva/cypressDemo/blob/main/allure1.png)
+![alt text](https://github.com/oletishiva/cypressDemo/blob/main/allure2.png)
+![alt text](https://github.com/oletishiva/cypressDemo/blob/main/allure3.png)
