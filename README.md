@@ -55,3 +55,4 @@ Add below to the cypress.json file
     "reporterEnabled": "@mochajs/json-file-reporter, mochawesome"  
 }  
 
+![alt text](https://github.com/oletishiva/cypressDemo/blob/main/allure1.png)
