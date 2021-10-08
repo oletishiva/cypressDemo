@@ -1,5 +1,11 @@
 {
-    "video": false,
+  "projectId": "2eb3sy",
+  "reporter": "cypress-multi-reporters",
+  "reporterOptions": {
+    "configFile": "cypress/support/cypress-multi-reporters.json"
+  },
+ 
+  "video": false,
   "ignoreTestFiles": [
     "**/__snapshots__/*",
     "**/__image_snapshots__/*"
@@ -9,7 +15,9 @@
       "imageConfig": {
         "threshold": 0.01
       }
-    }
+    },
+    "allureResultsPath": "allure-results",
+    "allure": true
   },
     "baseUrl":"https://jb-app-frontend-staging.herokuapp.com"
 }

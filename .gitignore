@@ -3,6 +3,11 @@
 # dependencies
 /node_modules
 
+allure-report
+allure-results
+mochawesome-report
+report.json
+
 # Cypress screenshots and videos
 /cypress/videos
 /cypress/screenshots
