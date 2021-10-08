@@ -58,3 +58,11 @@ Add below to the cypress.json file
 ![alt text](https://github.com/oletishiva/cypressDemo/blob/main/allure1.png)
 ![alt text](https://github.com/oletishiva/cypressDemo/blob/main/allure2.png)
 ![alt text](https://github.com/oletishiva/cypressDemo/blob/main/allure3.png)
+
+# How to see allure report  
+1. Go to the project folder generate allure report using the below command  
+allure generate --clean  
+allure open --> It will open the report the in browser  
+![alt text](https://github.com/oletishiva/cypressDemo/blob/main/allureserverstart.png)
+
+
